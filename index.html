@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranna - Food & Recipe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="full-body">
+        <nav>
+            <header>
+                <div class="media-container">
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <div class="logo">
+                    <img src="Assets/logo-dark.png" alt="">
+                </div>
+                <div class="top-right">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fas fa-bag-shopping"></i>
+                </div>
+            </header>
+            <div class="nav-container">
+                <div class="nav-bar">
+                    <a href="#">Home</a>
+                    <a href="#">Category</a>
+                    <a href="#">Recipe</a>
+                    <a href="#">Page</a>
+                    <a href="#">Element</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="login-submit">
+                    <a href="#">Login</a>
+                    <span class="">|</span>
+                    <button class="submit">+Submit Recipe</button>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <section class="cover-img">
+                <figure class="list">
+                    <div class="items">
+                        <img src="Assets/cover-img/ranna-wordpress-theme-radiustheme.com-4-1240x578.jpg" alt="">
+                        <div class="img-content">
+                            <h4>Breakfast</h4>
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <div class="rating">
+                                <input type="radio" name="rate1" id="cover-img-rate1-1">
+                                <label for="cover-img-rate1-1" class="fas fa-star"></label>
+
+                                <input type="radio" name="rate1" id="cover-img-rate1-2">
+                                <label for="cover-img-rate1-2" class="fas fa-star"></label>
+
+                                <input type="radio" name="rate1" id="cover-img-rate1-3">
+                                <label for="cover-img-rate1-3" class="fas fa-star"></label>
+
+                                <input type="radio" name="rate1" id="cover-img-rate1-4">
+                                <label for="cover-img-rate1-4" class="fas fa-star"></label>
+
+                                <input type="radio" name="rate1" id="cover-img-rate1-5">
+                                <label for="cover-img-rate1-5" class="fas fa-star"></label>
+                            </div>
+                            <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium harum.
+                            </div>
+                            <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                        </div>
+
+
+                        <span class="left-arrow prev">
+                            <i class="fa-solid fa-chevron-left arrows" onclick="changeSlides(-1)"></i>
+                        </span>
+                        <span class="right-arrow next">
+                            <i class="fa-solid fa-chevron-right arrows" onclick="changeSlides(1)"></i>
+                        </span>
+                    </div>
+                    <div class="items">
+                        <img src="Assets/cover-img/ranna-wordpress-theme-radiustheme.com-6-1240x578.jpg" alt="">
+                        <div class="img-content">
+                            <h4>Lunch</h4>
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <div class="rating">
+                                <input type="radio" name="rate2" id="cover-img-rate2-1">
+                                <label for="cover-img-rate2-1" class="fas fa-star"></label>
+
+                                <input type="radio" name="rate2" id="cover-img-rate2-2">
+                                <label for="cover-img-rate2-2" class="fas fa-star"></label>
+
+                                <input type="radio" name="rate2" id="cover-img-rate2-3">
+                                <label for="cover-img-rate2-3" class="fas fa-star"></label>
+
+                                <input type="radio" name="rate2" id="cover-img-rate2-4">
+                                <label for="cover-img-rate2-4" class="fas fa-star"></label>
+
+                                <input type="radio" name="rate2" id="cover-img-rate2-5">
+                                <label for="cover-img-rate2-5" class="fas fa-star"></label>
+                            </div>
+                            <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium harum.
+                            </div>
+                            <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                        </div>
+
+
+                        <span class="left-arrow prev">
+                            <i class="fa-solid fa-chevron-left arrows" onclick="changeSlides(-1)"></i>
+                        </span>
+                        <span class="right-arrow next">
+                            <i class="fa-solid fa-chevron-right arrows" onclick="changeSlides(1)"></i>
+                        </span>
+                    </div>
+                    <div class="items">
+                        <img src="Assets/cover-img/ranna-wordpress-theme-radiustheme.com-9-1240x578.jpg" alt="">
+                        <div class="img-content">
+                            <h4>Dinner</h4>
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <div class="rating">
+                                <input type="radio" name="rate3" id="cover-img-rate3-1">
+                                <label for="cover-img-rate3-1" class="fas fa-star"></label>
+
+                                <input type="radio" name="rate3" id="cover-img-rate3-2">
+                                <label for="cover-img-rate3-2" class="fas fa-star"></label>
+
+                                <input type="radio" name="rate3" id="cover-img-rate3-3">
+                                <label for="cover-img-rate3-3" class="fas fa-star"></label>
+
+                                <input type="radio" name="rate3" id="cover-img-rate3-4">
+                                <label for="cover-img-rate3-4" class="fas fa-star"></label>
+
+                                <input type="radio" name="rate3" id="cover-img-rate3-5">
+                                <label for="cover-img-rate3-5" class="fas fa-star"></label>
+                            </div>
+                            <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium harum.
+                            </div>
+                            <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                        </div>
+
+
+                        <span class="left-arrow prev">
+                            <i class="fa-solid fa-chevron-left arrows" onclick="changeSlides(-1)"></i>
+                        </span>
+                        <span class="right-arrow next">
+                            <i class="fa-solid fa-chevron-right arrows" onclick="changeSlides(1)"></i>
+                        </span>
+                    </div>
+                </figure>
+                <section class="cover-img-below-container">
+                    <div class="img-container">
+                        <div class="img-outer-box">
+                            <img src="Assets/img-container/blog16-530x338.jpg" alt="">
+                            <div class="img-content">
+                                <h4>Dinner</h4>
+                                <h2>Lorem ipsum dolor sit amet.</h2>
+                                <div class="rating">
+                                    <input type="radio" name="rate4-1" id="c-b-c-rate4-1">
+                                    <label for="c-b-c-rate4-1" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate4-1" id="c-b-c-rate4-2">
+                                    <label for="c-b-c-rate4-2" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate4-1" id="c-b-c-rate4-3">
+                                    <label for="c-b-c-rate4-3" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate4-1" id="c-b-c-rate4-4">
+                                    <label for="c-b-c-rate4-4" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate4-1" id="c-b-c-rate4-5">
+                                    <label for="c-b-c-rate4-5" class="fa-solid fa-star"></label>
+                                </div>
+                                <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                    autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium
+                                    harum.</div>
+                                <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-container">
+                        <div class="img-outer-box">
+                            <img src="Assets/img-container/ranna-wordpress-theme-radiustheme.com-11-530x338.jpg" alt="">
+                            <div class="img-content">
+                                <h4>Breakfast</h4>
+                                <h2>Lorem ipsum dolor sit amet.</h2>
+                                <div class="rating">
+                                    <input type="radio" name="rate5-1" id="c-b-c-rate5-1">
+                                    <label for="c-b-c-rate5-1" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate5-1" id="c-b-c-rate5-2">
+                                    <label for="c-b-c-rate5-2" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate5-1" id="c-b-c-rate5-3">
+                                    <label for="c-b-c-rate5-3" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate5-1" id="c-b-c-rate5-4">
+                                    <label for="c-b-c-rate5-4" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate5-1" id="c-b-c-rate5-5">
+                                    <label for="c-b-c-rate5-5" class="fa-solid fa-star"></label>
+                                </div>
+                                <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                    autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium
+                                    harum.</div>
+                                <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-container">
+                        <div class="img-outer-box">
+                            <img src="Assets/img-container/ranna-wordpress-theme-radiustheme.com-4-530x338.jpg" alt="">
+                            <div class="img-content">
+                                <h4>lunch</h4>
+                                <h2>Lorem ipsum dolor sit amet.</h2>
+                                <div class="rating">
+                                    <input type="radio" name="rate6-1" id="c-b-c-rate6-1">
+                                    <label for="c-b-c-rate6-1" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate6-1" id="c-b-c-rate6-2">
+                                    <label for="c-b-c-rate6-2" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate6-1" id="c-b-c-rate6-3">
+                                    <label for="c-b-c-rate6-3" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate6-1" id="c-b-c-rate6-4">
+                                    <label for="c-b-c-rate6-4" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate6-1" id="c-b-c-rate6-5">
+                                    <label for="c-b-c-rate6-5" class="fa-solid fa-star"></label>
+                                </div>
+                                <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                    autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium
+                                    harum.</div>
+                                <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section class="trend">
+                <article>
+                    <h2>Trending Recipe</h2>
+                    <figure class="big-img">
+                        <div class="img-outer-box">
+                            <img src="Assets/img-container/ranna_wordpress_theme_radiustheme.com_1-530x338.jpg" alt="">
+                            <div class="img-content">
+                                <h4>lunch</h4>
+                                <h2>Lorem ipsum dolor sit amet.</h2>
+                                <div class="rating">
+                                    <input type="radio" name="rate7-1" id="trend-rate7-1">
+                                    <label for="trend-rate7-1" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate7-1" id="trend-rate7-2">
+                                    <label for="trend-rate7-2" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate7-1" id="trend-rate7-3">
+                                    <label for="trend-rate7-3" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate7-1" id="trend-rate7-4">
+                                    <label for="trend-rate7-4" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate7-1" id="trend-rate7-5">
+                                    <label for="trend-rate7-5" class="fa-solid fa-star"></label>
+                                </div>
+                                <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                    autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium
+                                    harum.</div>
+                                <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                            </div>
+                        </div>
+                    </figure>
+                    <section class="cover-img-below-container trend-article">
+                        <div class="img-container">
+                            <div class="img-outer-box">
+                                <img src="Assets/img-container/blog16-530x338.jpg" alt="">
+                                <div class="img-content">
+                                    <h4>Dinner</h4>
+                                    <h2>Lorem ipsum dolor sit amet.</h2>
+                                    <div class="rating">
+                                        <input type="radio" name="rate8-1" id="trend-rate8-1">
+                                        <label for="trend-rate8-1" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate8-1" id="trend-rate8-2">
+                                        <label for="trend-rate8-2" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate8-1" id="trend-rate8-3">
+                                        <label for="trend-rate8-3" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate8-1" id="trend-rate8-4">
+                                        <label for="trend-rate8-4" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate8-1" id="trend-rate8-5">
+                                        <label for="trend-rate8-5" class="fa-solid fa-star"></label>
+                                    </div>
+                                    <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Corrupti
+                                        autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium
+                                        harum.</div>
+                                    <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-container">
+                            <div class="img-outer-box">
+                                <img src="Assets/img-container/ranna-wordpress-theme-radiustheme.com-11-530x338.jpg"
+                                    alt="">
+                                <div class="img-content">
+                                    <h4>Breakfast</h4>
+                                    <h2>Lorem ipsum dolor sit amet.</h2>
+                                    <div class="rating">
+                                        <input type="radio" name="rate9-1" id="trend-rate9-1">
+                                        <label for="trend-rate9-1" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate9-1" id="trend-rate9-2">
+                                        <label for="trend-rate9-2" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate9-1" id="trend-rate9-3">
+                                        <label for="trend-rate9-3" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate9-1" id="trend-rate9-4">
+                                        <label for="trend-rate9-4" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate9-1" id="trend-rate9-5">
+                                        <label for="trend-rate9-5" class="fa-solid fa-star"></label>
+                                    </div>
+                                    <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Corrupti
+                                        autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium
+                                        harum.</div>
+                                    <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-container">
+                            <div class="img-outer-box">
+                                <img src="Assets/img-container/ranna-wordpress-theme-radiustheme.com-11-530x338.jpg"
+                                    alt="">
+                                <div class="img-content">
+                                    <h4>Breakfast</h4>
+                                    <h2>Lorem ipsum dolor sit amet.</h2>
+                                    <div class="rating">
+                                        <input type="radio" name="rate10-1" id="trend-rate10-1">
+                                        <label for="trend-rate10-1" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate10-1" id="trend-rate10-2">
+                                        <label for="trend-rate10-2" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate10-1" id="trend-rate10-3">
+                                        <label for="trend-rate10-3" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate10-1" id="trend-rate10-4">
+                                        <label for="trend-rate10-4" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate10-1" id="trend-rate10-5">
+                                        <label for="trend-rate10-5" class="fa-solid fa-star"></label>
+                                    </div>
+                                    <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Corrupti
+                                        autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium
+                                        harum.</div>
+                                    <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-container">
+                            <div class="img-outer-box">
+                                <img src="Assets/img-container/ranna-wordpress-theme-radiustheme.com-11-530x338.jpg"
+                                    alt="">
+                                <div class="img-content">
+                                    <h4>Breakfast</h4>
+                                    <h2>Lorem ipsum dolor sit amet.</h2>
+                                    <div class="rating">
+                                        <input type="radio" name="rate11-1" id="trend-rate11-1">
+                                        <label for="trend-rate11-1" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate11-1" id="trend-rate11-2">
+                                        <label for="trend-rate11-2" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate11-1" id="trend-rate11-3">
+                                        <label for="trend-rate11-3" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate11-1" id="trend-rate11-4">
+                                        <label for="trend-rate11-4" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate11-1" id="trend-rate11-5">
+                                        <label for="trend-rate11-5" class="fa-solid fa-star"></label>
+                                    </div>
+                                    <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Corrupti
+                                        autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium
+                                        harum.</div>
+                                    <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-container">
+                            <div class="img-outer-box">
+                                <img src="Assets/img-container/ranna-wordpress-theme-radiustheme.com-11-530x338.jpg"
+                                    alt="">
+                                <div class="img-content">
+                                    <h4>Breakfast</h4>
+                                    <h2>Lorem ipsum dolor sit amet.</h2>
+                                    <div class="rating">
+                                        <input type="radio" name="rate12-1" id="trend-rate12-1">
+                                        <label for="trend-rate12-1" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate12-1" id="trend-rate12-2">
+                                        <label for="trend-rate12-2" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate12-1" id="trend-rate12-3">
+                                        <label for="trend-rate12-3" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate12-1" id="trend-rate12-4">
+                                        <label for="trend-rate12-4" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate12-1" id="trend-rate12-5">
+                                        <label for="trend-rate12-5" class="fa-solid fa-star"></label>
+                                    </div>
+                                    <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Corrupti
+                                        autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium
+                                        harum.</div>
+                                    <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-container">
+                            <div class="img-outer-box">
+                                <img src="Assets/img-container/ranna-wordpress-theme-radiustheme.com-11-530x338.jpg"
+                                    alt="">
+                                <div class="img-content">
+                                    <h4>Breakfast</h4>
+                                    <h2>Lorem ipsum dolor sit amet.</h2>
+                                    <div class="rating">
+                                        <input type="radio" name="rate13-1" id="trend-rate13-1">
+                                        <label for="trend-rate13-1" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate13-1" id="trend-rate13-2">
+                                        <label for="trend-rate13-2" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate13-1" id="trend-rate13-3">
+                                        <label for="trend-rate13-3" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate13-1" id="trend-rate13-4">
+                                        <label for="trend-rate13-4" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate13-1" id="trend-rate13-5">
+                                        <label for="trend-rate13-5" class="fa-solid fa-star"></label>
+                                    </div>
+                                    <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Corrupti
+                                        autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium
+                                        harum.</div>
+                                    <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-container">
+                            <div class="img-outer-box">
+                                <img src="Assets/img-container/ranna-wordpress-theme-radiustheme.com-4-530x338.jpg"
+                                    alt="">
+                                <div class="img-content">
+                                    <h4>lunch</h4>
+                                    <h2>Lorem ipsum dolor sit amet.</h2>
+                                    <div class="rating">
+                                        <input type="radio" name="rate14-1" id="trend-rate14-1">
+                                        <label for="trend-rate14-1" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate14-1" id="trend-rate14-2">
+                                        <label for="trend-rate14-2" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate14-1" id="trend-rate14-3">
+                                        <label for="trend-rate14-3" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate14-1" id="trend-rate14-4">
+                                        <label for="trend-rate14-4" class="fa-solid fa-star"></label>
+
+                                        <input type="radio" name="rate14-1" id="trend-rate14-5">
+                                        <label for="trend-rate14-5" class="fa-solid fa-star"></label>
+                                    </div>
+                                    <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Corrupti
+                                        autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium
+                                        harum.</div>
+                                    <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="ads">
+                        <img src="Assets/img-container/ads.jpg" alt="">
+                    </section>
+                </article>
+                <aside class="aside">
+                    <section>
+                        <h2>About Me</h2>
+                        <figure class="profile">
+                            <img src="Assets/img-container/profile.jpg" alt="">
+                        </figure>
+                        <h3 class="profile-name">Elena Gomez</h3>
+                        <div class="profile-det">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dicta
+                            maxime odit est aperiam vel vero accusantium exercitationem quisquam nam commodi doloribus
+                            esse tempore sapiente eaque, odio cumque ab placeat.</div>
+                    </section>
+                    <section>
+                        <h2>Subscribers & Follows</h2>
+                        <div class="follow">
+                            <i class="fb fa-brands fa-facebook-f"></i>
+                            <i class="twitter fa-brands fa-twitter"></i>
+                            <i class="pintrest fa-brands fa-pinterest"></i>
+                            <i class="yt fa-brands fa-youtube"></i>
+                            <i class="insta fa-brands fa-instagram"></i>
+                        </div>
+                    </section>
+                    <section>
+                        <h2>Latest Recipes</h2>
+                        <div class="latest-recipe">
+                            <div class="box">
+                                <img src="Assets/img-container/ranna-wordpress-theme-radiustheme.com-11-530x338.jpg"
+                                    alt="">
+                                <div class="latest-menu-det">
+                                    <div class="type">Pasta</div>
+                                    <div class="recipe-name">Lorem ipsum dolor</div>
+                                    <div class="date">20 December 2024</div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <img src="Assets/img-container/ranna-wordpress-theme-radiustheme.com-4-530x338.jpg"
+                                    alt="">
+                                <div class="latest-menu-det">
+                                    <div class="type">Pasta</div>
+                                    <div class="recipe-name">Lorem ipsum dolor</div>
+                                    <div class="date">20 December 2024</div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <img src="Assets/img-container/ranna_wordpress_theme_radiustheme.com_1-530x338.jpg"
+                                    alt="">
+                                <div class="latest-menu-det">
+                                    <div class="type">Pasta</div>
+                                    <div class="recipe-name">Lorem ipsum dolor</div>
+                                    <div class="date">20 December 2024</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="aside-ads">
+                            <img src="Assets/img-container/aside ads.jpg" alt="">
+                        </div>
+                    </section>
+                    <section>
+                        <h2>Recipe Category</h2>
+                        <div class="recipe-category">
+                            <div class="box-type">
+                                <div class="inner-box">
+                                    <h3>Breakfast</h3>
+                                </div>
+                                <div class="inner-box">(1)</div>
+                            </div>
+                            <div class="box-type">
+                                <div class="inner-box">
+                                    <h3>Lunch</h3>
+                                </div>
+                                <div class="inner-box">(1)</div>
+                            </div>
+                            <div class="box-type">
+                                <div class="inner-box">
+                                    <h3>Dinner</h3>
+                                </div>
+                                <div class="inner-box">(1)</div>
+                            </div>
+                            <div class="box-type">
+                                <div class="inner-box">
+                                    <h3>Drinks</h3>
+                                </div>
+                                <div class="inner-box">(1)</div>
+                            </div>
+                            <div class="box-type">
+                                <div class="inner-box">
+                                    <h3>Meals</h3>
+                                </div>
+                                <div class="inner-box">(1)</div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <form action="post">
+                            <h3>Get Latest Update</h3>
+                            <h6>NewsLetter Subscribe</h6>
+                            <input type="email" name="email" id="email" placeholder="Your e-mail Address">
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </section>
+                </aside>
+            </section>
+
+            <section>
+
+                <h2>Editor's Choice</h2>
+                <section class="cover-img-below-container editor-choice">
+                    <div class="img-container">
+
+                        <img src="Assets/img-container/blog16-530x338.jpg" alt="">
+                        <div class="img-content">
+                            <h4>Dinner</h4>
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <div class="rating">
+                                <input type="radio" name="rate4-1" id="c-b-c-rate4-1">
+                                <label for="c-b-c-rate4-1" class="fa-solid fa-star"></label>
+
+                                <input type="radio" name="rate4-1" id="c-b-c-rate4-2">
+                                <label for="c-b-c-rate4-2" class="fa-solid fa-star"></label>
+
+                                <input type="radio" name="rate4-1" id="c-b-c-rate4-3">
+                                <label for="c-b-c-rate4-3" class="fa-solid fa-star"></label>
+
+                                <input type="radio" name="rate4-1" id="c-b-c-rate4-4">
+                                <label for="c-b-c-rate4-4" class="fa-solid fa-star"></label>
+
+                                <input type="radio" name="rate4-1" id="c-b-c-rate4-5">
+                                <label for="c-b-c-rate4-5" class="fa-solid fa-star"></label>
+                            </div>
+                            <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium
+                                harum.</div>
+                            <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                        </div>
+
+                    </div>
+                    <div class="img-container">
+                        
+                            <img src="Assets/img-container/ranna-wordpress-theme-radiustheme.com-11-530x338.jpg" alt="">
+                            <div class="img-content">
+                                <h4>Breakfast</h4>
+                                <h2>Lorem ipsum dolor sit amet.</h2>
+                                <div class="rating">
+                                    <input type="radio" name="rate5-1" id="c-b-c-rate5-1">
+                                    <label for="c-b-c-rate5-1" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate5-1" id="c-b-c-rate5-2">
+                                    <label for="c-b-c-rate5-2" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate5-1" id="c-b-c-rate5-3">
+                                    <label for="c-b-c-rate5-3" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate5-1" id="c-b-c-rate5-4">
+                                    <label for="c-b-c-rate5-4" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate5-1" id="c-b-c-rate5-5">
+                                    <label for="c-b-c-rate5-5" class="fa-solid fa-star"></label>
+                                </div>
+                                <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                    autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium
+                                    harum.</div>
+                                <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                            </div>
+                        
+                    </div>
+                    <div class="img-container">
+                        
+                            <img src="Assets/img-container/ranna-wordpress-theme-radiustheme.com-4-530x338.jpg" alt="">
+                            <div class="img-content">
+                                <h4>lunch</h4>
+                                <h2>Lorem ipsum dolor sit amet.</h2>
+                                <div class="rating">
+                                    <input type="radio" name="rate6-1" id="c-b-c-rate6-1">
+                                    <label for="c-b-c-rate6-1" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate6-1" id="c-b-c-rate6-2">
+                                    <label for="c-b-c-rate6-2" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate6-1" id="c-b-c-rate6-3">
+                                    <label for="c-b-c-rate6-3" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate6-1" id="c-b-c-rate6-4">
+                                    <label for="c-b-c-rate6-4" class="fa-solid fa-star"></label>
+
+                                    <input type="radio" name="rate6-1" id="c-b-c-rate6-5">
+                                    <label for="c-b-c-rate6-5" class="fa-solid fa-star"></label>
+                                </div>
+                                <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                    autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium
+                                    harum.</div>
+                                <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                            </div>
+                        
+                    </div>
+                </section>
+
+            </section>
+
+            <section>
+                <div class="popular-recipe">
+                    
+                    <section class="cover-img-below-container popular">
+                        <h2>Popular Recipe</h2>
+                        <div class="img-container">
+                            
+                            <img src="Assets/img-container/blog16-530x338.jpg" alt="">
+                            <div class="img-content">
+                                <h4>Dinner</h4>
+                                <h2>Lorem ipsum dolor sit amet.</h2>
+                                <div class="rating">
+                                    <input type="radio" name="rate4-1" id="c-b-c-rate4-1">
+                                    <label for="c-b-c-rate4-1" class="fa-solid fa-star"></label>
+    
+                                    <input type="radio" name="rate4-1" id="c-b-c-rate4-2">
+                                    <label for="c-b-c-rate4-2" class="fa-solid fa-star"></label>
+    
+                                    <input type="radio" name="rate4-1" id="c-b-c-rate4-3">
+                                    <label for="c-b-c-rate4-3" class="fa-solid fa-star"></label>
+    
+                                    <input type="radio" name="rate4-1" id="c-b-c-rate4-4">
+                                    <label for="c-b-c-rate4-4" class="fa-solid fa-star"></label>
+    
+                                    <input type="radio" name="rate4-1" id="c-b-c-rate4-5">
+                                    <label for="c-b-c-rate4-5" class="fa-solid fa-star"></label>
+                                </div>
+                                <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                    autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium
+                                    harum.</div>
+                                <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                            </div>
+    
+                        </div>
+                        <div class="img-container">
+                            
+                                <img src="Assets/img-container/ranna-wordpress-theme-radiustheme.com-11-530x338.jpg" alt="">
+                                <div class="img-content">
+                                    <h4>Breakfast</h4>
+                                    <h2>Lorem ipsum dolor sit amet.</h2>
+                                    <div class="rating">
+                                        <input type="radio" name="rate5-1" id="c-b-c-rate5-1">
+                                        <label for="c-b-c-rate5-1" class="fa-solid fa-star"></label>
+    
+                                        <input type="radio" name="rate5-1" id="c-b-c-rate5-2">
+                                        <label for="c-b-c-rate5-2" class="fa-solid fa-star"></label>
+    
+                                        <input type="radio" name="rate5-1" id="c-b-c-rate5-3">
+                                        <label for="c-b-c-rate5-3" class="fa-solid fa-star"></label>
+    
+                                        <input type="radio" name="rate5-1" id="c-b-c-rate5-4">
+                                        <label for="c-b-c-rate5-4" class="fa-solid fa-star"></label>
+    
+                                        <input type="radio" name="rate5-1" id="c-b-c-rate5-5">
+                                        <label for="c-b-c-rate5-5" class="fa-solid fa-star"></label>
+                                    </div>
+                                    <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                        autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium
+                                        harum.</div>
+                                    <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                                </div>
+                            
+                        </div>
+                        <div class="img-container">
+                            
+                                <img src="Assets/img-container/ranna-wordpress-theme-radiustheme.com-4-530x338.jpg" alt="">
+                                <div class="img-content">
+                                    <h4>lunch</h4>
+                                    <h2>Lorem ipsum dolor sit amet.</h2>
+                                    <div class="rating">
+                                        <input type="radio" name="rate6-1" id="c-b-c-rate6-1">
+                                        <label for="c-b-c-rate6-1" class="fa-solid fa-star"></label>
+    
+                                        <input type="radio" name="rate6-1" id="c-b-c-rate6-2">
+                                        <label for="c-b-c-rate6-2" class="fa-solid fa-star"></label>
+    
+                                        <input type="radio" name="rate6-1" id="c-b-c-rate6-3">
+                                        <label for="c-b-c-rate6-3" class="fa-solid fa-star"></label>
+    
+                                        <input type="radio" name="rate6-1" id="c-b-c-rate6-4">
+                                        <label for="c-b-c-rate6-4" class="fa-solid fa-star"></label>
+    
+                                        <input type="radio" name="rate6-1" id="c-b-c-rate6-5">
+                                        <label for="c-b-c-rate6-5" class="fa-solid fa-star"></label>
+                                    </div>
+                                    <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                        autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium
+                                        harum.</div>
+                                    <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                                </div>
+                            
+                        </div>
+                    </section>
+                    <aside class="popular-recipe-aside">
+                        <div class="feature">
+                            <h3>Feaure Article</h3>
+                            <figure class="feature-list">
+                                <div class="feature-items">
+                                    <img src="Assets/cover-img/ranna-wordpress-theme-radiustheme.com-4-1240x578.jpg" alt="">
+                                    <div class="img-content">
+                                        <h4>Breakfast</h4>
+                                        <h2>Lorem ipsum dolor sit amet.</h2>
+                                        <div class="rating">
+                                            <input type="radio" name="rate1" id="cover-img-rate1-1">
+                                            <label for="cover-img-rate1-1" class="fas fa-star"></label>
+            
+                                            <input type="radio" name="rate1" id="cover-img-rate1-2">
+                                            <label for="cover-img-rate1-2" class="fas fa-star"></label>
+            
+                                            <input type="radio" name="rate1" id="cover-img-rate1-3">
+                                            <label for="cover-img-rate1-3" class="fas fa-star"></label>
+            
+                                            <input type="radio" name="rate1" id="cover-img-rate1-4">
+                                            <label for="cover-img-rate1-4" class="fas fa-star"></label>
+            
+                                            <input type="radio" name="rate1" id="cover-img-rate1-5">
+                                            <label for="cover-img-rate1-5" class="fas fa-star"></label>
+                                        </div>
+                                        <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                            autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium harum.
+                                        </div>
+                                        <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                                    </div>
+            
+            
+                                    <span class="left-arrow prev">
+                                        <i class="fa-solid fa-chevron-left arrows" onclick="featurechangeSlides(-1)"></i>
+                                    </span>
+                                    <span class="right-arrow next">
+                                        <i class="fa-solid fa-chevron-right arrows" onclick="featurechangeSlides(1)"></i>
+                                    </span>
+                                </div>
+                                <div class="feature-items">
+                                    <img src="Assets/cover-img/ranna-wordpress-theme-radiustheme.com-6-1240x578.jpg" alt="">
+                                    <div class="img-content">
+                                        <h4>Lunch</h4>
+                                        <h2>Lorem ipsum dolor sit amet.</h2>
+                                        <div class="rating">
+                                            <input type="radio" name="rate2" id="cover-img-rate2-1">
+                                            <label for="cover-img-rate2-1" class="fas fa-star"></label>
+            
+                                            <input type="radio" name="rate2" id="cover-img-rate2-2">
+                                            <label for="cover-img-rate2-2" class="fas fa-star"></label>
+            
+                                            <input type="radio" name="rate2" id="cover-img-rate2-3">
+                                            <label for="cover-img-rate2-3" class="fas fa-star"></label>
+            
+                                            <input type="radio" name="rate2" id="cover-img-rate2-4">
+                                            <label for="cover-img-rate2-4" class="fas fa-star"></label>
+            
+                                            <input type="radio" name="rate2" id="cover-img-rate2-5">
+                                            <label for="cover-img-rate2-5" class="fas fa-star"></label>
+                                        </div>
+                                        <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                            autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium harum.
+                                        </div>
+                                        <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                                    </div>
+            
+            
+                                    <span class="left-arrow prev">
+                                        <i class="fa-solid fa-chevron-left arrows" onclick="featurechangeSlides(-1)"></i>
+                                    </span>
+                                    <span class="right-arrow next">
+                                        <i class="fa-solid fa-chevron-right arrows" onclick="featurechangeSlides(1)"></i>
+                                    </span>
+                                </div>
+                                <div class="feature-items">
+                                    <img src="Assets/cover-img/ranna-wordpress-theme-radiustheme.com-9-1240x578.jpg" alt="">
+                                    <div class="img-content">
+                                        <h4>Dinner</h4>
+                                        <h2>Lorem ipsum dolor sit amet.</h2>
+                                        <div class="rating">
+                                            <input type="radio" name="rate3" id="cover-img-rate3-1">
+                                            <label for="cover-img-rate3-1" class="fas fa-star"></label>
+            
+                                            <input type="radio" name="rate3" id="cover-img-rate3-2">
+                                            <label for="cover-img-rate3-2" class="fas fa-star"></label>
+            
+                                            <input type="radio" name="rate3" id="cover-img-rate3-3">
+                                            <label for="cover-img-rate3-3" class="fas fa-star"></label>
+            
+                                            <input type="radio" name="rate3" id="cover-img-rate3-4">
+                                            <label for="cover-img-rate3-4" class="fas fa-star"></label>
+            
+                                            <input type="radio" name="rate3" id="cover-img-rate3-5">
+                                            <label for="cover-img-rate3-5" class="fas fa-star"></label>
+                                        </div>
+                                        <div class="menu-det">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                            autem doloremque sapiente. Inventore aperiam at sequi quaerat odio praesentium harum.
+                                        </div>
+                                        <div class="menu-aside">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+                                    </div>
+            
+            
+                                    <span class="left-arrow prev">
+                                        <i class="fa-solid fa-chevron-left arrows" onclick="featurechangeSlides(-1)"></i>
+                                    </span>
+                                    <span class="right-arrow next">
+                                        <i class="fa-solid fa-chevron-right arrows" onclick="featurechangeSlides(1)"></i>
+                                    </span>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="popular-tag"></div>
+                    </aside>
+                </div>
+                <div class="feature-article"></div>
+            </section>
+        </main>
+
+        <footer></footer>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
