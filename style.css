@@ -452,3 +452,53 @@ height: 100%;
 .feature-items:hover .right-arrow {
     display: inline-block;
 }
+
+/* -----------------------------footer -------0 */
+footer {
+    background-color: #f1f1f1; /* Change this color as needed */
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-logo h2 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .footer-links,
+  .footer-social {
+    margin: 10px 0;
+  }
+  
+  .footer-links ul,
+  .footer-social ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li,
+  .footer-social li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .footer-links a,
+  .footer-social a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-links a:hover,
+  .footer-social a:hover {
+    text-decoration: underline;
+  }
+  
