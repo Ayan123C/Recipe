@@ -250,7 +250,10 @@ article {
     width: 70%;
     padding: 0 1rem;
 }
-
+.trend article>h2 {
+    margin-left: 4rem;
+    padding-bottom: 10px;
+}
 .big-img .img-outer-box {
     width: 91%;
     border-radius: 13px;
@@ -295,7 +298,9 @@ figure.big-img {
     gap: 5rem;
     justify-content: space-between;
 }
-
+.aside h2 {
+    padding-bottom: 10px;
+}
 h3.profile-name {
     margin: 6px 0;
     font-style: oblique;
@@ -452,6 +457,41 @@ height: 100%;
 .feature-items:hover .right-arrow {
     display: inline-block;
 }
+
+
+
+
+
+.editor>h2 {
+    margin: 10px 0 10px 2rem;
+}
+section.cover-img-below-container.editor-choice {
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* -----------------------------footer -------0 */
 footer {
