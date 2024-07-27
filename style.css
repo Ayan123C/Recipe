@@ -247,7 +247,7 @@ section.trend {
 }
 
 article {
-    width: 70%;
+    width: 65%;
     padding: 0 1rem;
 }
 .trend article>h2 {
@@ -472,7 +472,99 @@ section.cover-img-below-container.editor-choice {
 
 
 
+/* login-btn */
+#loginBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
 
+.login-container {
+    z-index: 100;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    height: 65vh;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form#loginForm {
+    height: 85%;
+    justify-content: space-around;
+    /* margin: 0; */
+    display: flex;
+    align-items: center;
+}
+.login-box h2 {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.form-group {
+    margin: 0;
+}
+
+.form-group label {
+    /* display: block; */
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 80%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.form-group a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-group a:hover {
+    text-decoration: underline;
+}
+
+button[type="submit"],
+button[type="button"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background: #e72c2c;
+    color: white;
+    border-radius: 5px;
+    margin: 1px;
+    align-self: center;
+}
+
+button[type="button"] {
+    background: #6c757d;
+}
+
+button:hover {
+    opacity: 0.9;
+}
 
 
 
@@ -542,3 +634,120 @@ footer {
     text-decoration: underline;
   }
   
+  @media only screen and (max-width: 1200px){
+    .trend-article .img-container {
+        max-width: 365px;
+        max-width: 75%;
+    }
+    .box {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .latest-recipe img {
+        width: 100%;
+    }
+    .big-img .img-outer-box {
+        width: 100%;
+        border-radius: 13px;
+        margin-left: 0;
+    }
+    .trend article>h2 {
+        margin-left: 0;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 769px){
+/* Header adjustments */
+.media-container, .top-right{
+    display: none;
+}
+.nav-container {
+    display: none;
+}
+.img-content.hide {
+    display: none;
+}
+
+.cover-img .list .items{
+    width: 95%;
+}
+
+.cover-img-below-container {
+    padding: 40px 10px 10px 10px;
+
+}
+
+.trend {
+    /* display: flex; */
+    flex-direction: column;
+}
+article{
+    width: 100%;
+    padding: 0;
+}
+
+.aside{
+    width: 100%;
+}
+.profile img {
+    width: 20%;
+}
+.aside-ads img {
+    width: 96%;
+}
+aside.aside section {
+    padding: 10px;
+}
+
+.editor-choice .img-container {
+    max-width: 400px;
+    position: relative;
+    max-width: 100%;
+    padding: 10px 0;
+}
+.popular-recipe {
+    flex-direction: column;
+}
+.popular .img-container {
+    display: flex;
+    flex-direction: column;
+}
+aside.popular-recipe-aside {
+    width: 95%;
+    padding: 10px;
+}
+  }
+
+
+  @media only screen and (max-width: 412px) {
+    
+
+    /* Main section adjustments */
+    .cover-img .list {
+        display: none;
+    }
+    .cover-img-below-container {
+        padding: 10px;
+    }
+    .img-container{
+        max-width: 100%; 
+    }
+
+    /* Trends section adjustments */
+    
+    figure.big-img {
+        /* display: flex; */
+        justify-content: center;
+        width: 100%;
+    }
+    .big-img .img-outer-box {
+        width: 100%;
+        border-radius: 13px;
+        margin-left: 0;
+    }
+    
+    
+}

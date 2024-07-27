@@ -37,8 +37,8 @@
                     <a href="#">Contact</a>
                 </div>
                 <div class="login-submit">
-                    <a href="#">Login</a>
-                    <span class="">|</span>
+                    <button id="loginBtn">Login</button>
+                    <!-- <span class="">|</span> -->
                     <button class="submit">+Submit Recipe</button>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                 <figure class="list">
                     <div class="items">
                         <img src="Assets/cover-img/ranna-wordpress-theme-radiustheme.com-4-1240x578.jpg" alt="">
-                        <div class="img-content">
+                        <div class="img-content hide">
                             <h4>Breakfast</h4>
                             <h2>Lorem ipsum dolor sit amet.</h2>
                             <div class="rating">
@@ -894,6 +894,53 @@
 
             </section>
         </main>
+        <section class="pop-ups">
+            <div id="loginContainer" class="login-container">
+                <div class="login-box">
+                    <h2>Login Form</h2>
+                    <form id="loginForm">
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" id="username" name="username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="rememberMe" name="rememberMe">
+                            <label for="rememberMe">Remember me</label>
+                        </div>
+                        <div class="form-group">
+                            <a href="#" id="forgotPassword">Forgot your password?</a>
+                        </div>
+                        <button type="submit">Login</button>
+                        <button type="button" id="createAccount">Create an Account ></button>
+                    </form>
+                </div>
+            </div>
+            <div id="loginContainerC" class="login-container">
+                <div class="login-box">
+                    <h2>Login Form</h2>
+                    <form id="loginForm">
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" id="usernameC" name="username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="passwordC" name="password" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" id="rememberMeC" name="rememberMe">
+                            <label for="rememberMe">Remember me</label>
+                        </div>
+                        
+                        <button type="button" id="createAccountC">Create an Account ></button>
+                    </form>
+                </div>
+            </div>
+        </section>
 
         <footer>
             <div class="footer-container">
