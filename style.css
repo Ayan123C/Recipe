@@ -666,6 +666,16 @@ footer {
     }
   }
 
+
+  @media only screen and (max-width: 1100px) and (min-width: 769px) {
+    .popular .img-container {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
   @media only screen and (max-width: 769px){
 /* Header adjustments */
 .media-container, .top-right{
@@ -681,9 +691,12 @@ footer {
 .cover-img .list .items{
     width: 95%;
 }
-
-.cover-img-below-container {
+section.editor {
     padding: 40px 10px 10px 10px;
+}
+.popular {
+    padding: 40px 10px 10px 10px;
+    width: 97%;
 
 }
 
