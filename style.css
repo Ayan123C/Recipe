@@ -330,7 +330,7 @@ h3.profile-name {
 }
 
 .latest-recipe {
-    height: 60vh;
+    /* height: 60vh; */
 }
 
 .latest-recipe img {
@@ -345,6 +345,10 @@ h3.profile-name {
 
 .latest-menu-det {
     width: 50%;
+    background-color: papayawhip;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -650,12 +654,15 @@ footer {
     .big-img .img-outer-box {
         width: 100%;
         border-radius: 13px;
-        margin-left: 0;
+        margin-left: 2.5rem;
     }
     .trend article>h2 {
         margin-left: 0;
         padding-bottom: 10px;
         text-align: center;
+    }
+    .latest-menu-det {
+        width: 100%;
     }
   }
 
