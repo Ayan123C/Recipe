@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const loginForm = document.getElementById("loginForm");
     const creatAccount=document.getElementById("createAccount");
     const loginContainerC = document.getElementById("loginContainerC");
-
+    const userp=document.querySelector('.user-p');
 
     // Store test credentials in local storage (for initial testing)
     // localStorage.setItem('username1', 'testUser');
@@ -180,6 +180,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // Hide login container after successful login
             loginContainer.style.display = "none";
             loginBtn.style.display="none";
+            userp.style.display="block";
         } else {
             alert("Invalid username or password.");
         }
@@ -204,7 +205,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 loginContainerC.style.display = "none";
                 loginContainer.style.display = "none";
                 loginBtn.style.display="none";
-            });
-            
+                userp.style.display="block";
+            });         
 
 });

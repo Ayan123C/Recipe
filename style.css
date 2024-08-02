@@ -30,6 +30,14 @@ header {
     display: flex;
     justify-content: space-evenly;
 }
+.top-right i {
+    font-size: 25px;
+}
+.user-p{
+    display: none;
+}
+
+
 
 .media-container a i {
     text-decoration: none;
@@ -224,6 +232,36 @@ img {
     position: relative;
     top: 0;
 }
+
+
+
+
+
+
+.menu-aside {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+span.menu-aside-1 {
+    display: flex;
+    gap: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .img-container:hover .img-outer-box img {
     transform: rotate(7deg) scale(1.18);
