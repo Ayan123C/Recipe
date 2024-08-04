@@ -260,7 +260,7 @@ img {
     position: relative;
     z-index: 3;
     background-color: white;
-    padding: 40px 0 10px 30px;
+    padding: 40px 10px 10px 10px;
 }
 
 .img-container {
@@ -350,7 +350,7 @@ article {
 .big-img .img-outer-box {
     width: 91%;
     border-radius: 13px;
-    margin-left: 4rem;
+    /* margin-left: 4rem; */
 }
 
 .big-img .img-outer-box img {
@@ -362,7 +362,7 @@ figure.big-img {
     justify-content: center;
     /* margin-left: 12%;
     width: 100%; */
-    width: 86%;
+    width: 97%;
 }
 
 .big-img:hover .img-outer-box img {
@@ -592,7 +592,7 @@ section.cover-img-below-container.editor-choice {
 }
 
 .login-box {
-    height: 65vh;
+    height: 79%;
     background: white;
     padding: 20px;
     border-radius: 5px;
@@ -605,6 +605,13 @@ form#loginForm {
     display: flex;
     align-items: center;
 }
+
+form#loginFormC {
+    height: 80%;
+    justify-content: space-evenly;
+}
+
+
 .login-box h2 {
     margin: 0 0 20px 0;
     font-size: 24px;
@@ -747,7 +754,7 @@ footer {
     .big-img .img-outer-box {
         width: 100%;
         border-radius: 13px;
-        margin-left: 2.5rem;
+        /* margin-left: 2.5rem; */
     }
     .trend article>h2 {
         margin-left: 0;
@@ -782,6 +789,9 @@ footer {
 }
 
 .cover-img .list .items{
+    width: 90%;
+}
+.cover-img .list .items img {
     width: 95%;
 }
 section.editor {

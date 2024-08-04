@@ -146,9 +146,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const loginBtn = document.getElementById("loginBtn");
     const loginContainer = document.getElementById("loginContainer");
     const loginForm = document.getElementById("loginForm");
-    const creatAccount=document.getElementById("createAccount");
+    const createAccount=document.getElementById("createAccount");
     const loginContainerC = document.getElementById("loginContainerC");
     const userp=document.querySelector('.user-p');
+    const reset=document.querySelector('#reset-login');
+    const resetC=document.querySelector('#reset-loginC');
+
 
     // Store test credentials in local storage (for initial testing)
     // localStorage.setItem('username1', 'testUser');
@@ -158,12 +161,14 @@ document.addEventListener("DOMContentLoaded", () => {
         loginContainer.style.display = "flex";
     });
 
-    // loginContainer.addEventListener("click", (e) => {
-    //     if (e.target === loginContainer) {
-    //         loginContainer.style.display = "none";
-    //     }
-    // });
+    reset.addEventListener("click", () => {
+            loginContainer.style.display = "none";
+    });
 
+    resetC.addEventListener("click", () => {
+        loginContainerC.style.display = "none";
+        loginContainer.style.display = "none";
+    });
     loginForm.addEventListener("submit", (e) => {
         e.preventDefault(); // Prevent form submission
 
@@ -188,7 +193,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     createAccount.addEventListener("click",()=>{
         loginContainerC.style.display="flex";
-
     });
 
     createAccountC.addEventListener("click",()=>{
@@ -196,7 +200,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const password = document.getElementById("passwordC").value;
 
         localStorage.setItem(`username`, username);
-        localStorage.setItem(`password`, password);
+        localStorage.setItem(`password`, password); 
 
         
             // Hide login container after successful login
