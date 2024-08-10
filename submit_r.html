@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Recipe</title>
+    <link rel="stylesheet" href="submit_r.css">
+</head>
+<body>
+    <div id="user-info">
+        <!-- User name will be fetched and shown here -->
+        <img src="Assets/logo-dark.png" alt="">
+        
+        <h3 id="user-name">User Name</h3>
+    </div>
+    <!-- <button id="show-form-btn">Submit Recipe</button> -->
+    <div id="recipe-form-container" class="hidden">
+        <form id="recipe-form">
+            <label for="recipe-image">Recipe Image:</label>
+            <input type="file" id="recipe-image" name="recipe-image" accept="image/*" required>
+            
+            <label for="food-type">Food Type:</label>
+            <select id="food-type" name="food-type" required>
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="snacks">Snacks</option>
+                <option value="meals">Meals</option>
+                <option value="drinks">Drinks</option>
+                <option value="others">Others</option>
+            </select>
+            
+            <label for="recipe-name">Recipe Name:</label>
+            <input type="text" id="recipe-name" name="recipe-name" required>
+            
+            <label for="recipe-description">Description:</label>
+            <textarea id="recipe-description" name="recipe-description" rows="4" required></textarea>
+            
+            <label for="cooking-time">Cooking Time:</label>
+            <input type="text" id="cooking-time" name="cooking-time" required>
+            
+            <button type="submit">Submit Recipe</button>
+        </form>
+    </div>
+    <script src="submit_r.js"></script>
+</body>
+</html>

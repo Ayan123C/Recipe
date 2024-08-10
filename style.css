@@ -81,44 +81,19 @@ header {
     /* border-bottom: 1px solid rgb(210, 205, 205);*/
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .nav-bar a:hover{
     color: red;
     border-bottom: 1px solid red;
 }
+.login-submit {
+    display: flex;
+}
 .login-submit a {
+    position: relative;
+    /* top: 6px; */
     margin-right: 10px;
     text-decoration: none;
-    color: black;
+    /* color: black; */
 }
 #loginBtn:hover{
     color: white;
